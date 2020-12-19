@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-repeat: no-repeat;
+    background-size:1600px 800px;
+    background-position: fixed;
+    background-image: url("../countdown-timer/abc.jpg");
+    font-family: "poppins", sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: normal;
+    margin-top: 10rem;
+}
+.countdown-container{
+    display: flex;
+
+}
+.big-text{
+    font-weight: bold;
+    font-size: 2rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.countdown-el{
+    text-align: center;
+}
+
+
+.countdown-el span{
+    font-size: 1rem;
+    margin: 0 1rem 0 1rem;
+    text-align: center;
+}
+
